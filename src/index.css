@@ -12,5 +12,7 @@
 }
 
 .container {
-    padding: 40px clamp(40px, 10%, 500px);
+    padding: 40px 0;
+    max-width: clamp(300px, 80%, 1200px);
+    margin: auto;
 }
