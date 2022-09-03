@@ -23,9 +23,9 @@ function Navbar() {
                 </div>
                 <ul className='nav-items'>
                     <li onClick={hideMobileNavigation} className='nav-item'><a href="#">About Me</a></li>
-                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#">Projects</a></li>
-                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#">Technologies</a></li>
-                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#">Contact Me</a></li>
+                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#projects">Projects</a></li>
+                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#technologies">Technologies</a></li>
+                    <li onClick={hideMobileNavigation} className='nav-item'><a href="#contact-me">Contact Me</a></li>
                 </ul>
                 <a className='logo-wrapper' href="#" onClick={hideMobileNavigation}>
                     <svg className='animated-logo' width="69" height="35" viewBox="0 0 69 35" fill="none" xmlns="http://www.w3.org/2000/svg">

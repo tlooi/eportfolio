@@ -20,7 +20,7 @@ function ContactMe() {
 
     return (
         <section className='container'>
-            <SectionHeader content='Contact Me' id='contactMe' />
+            <SectionHeader content='Contact Me' id='contact-me' />
             <div className='contact-me-area'>
                 <label htmlFor="name">Name</label>
                 <input ref={nameInput} className='contact-me-input' type="text" id='name' minLength={1} />
