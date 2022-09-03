@@ -1,0 +1,45 @@
+.contact-me-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    min-width: 50%;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20vh;
+}
+
+.contact-me-input {
+    resize: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+textarea.contact-me-input {
+    height: 200px;
+}
+
+.contact-me-area > label {
+    margin-bottom: 5px;
+}
+
+#contact-me-send {
+    font-size: 17px;
+    outline: none;
+    border: none;
+    width: 300px;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #A4D6AC;
+    margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+    .contact-me-area {
+        width: 100%;
+    }
+}
