@@ -9,6 +9,7 @@ function SectionHeader({ id, content }: { id: string, content: string }) {
                     #${id} {
                         position: relative;
                         font-size: 20px;
+                        z-index: -1;
                     }
                     #${id}::after {
                         content: '${content}';
