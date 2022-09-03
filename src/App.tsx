@@ -1,8 +1,9 @@
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
+import Projects from './Components/Projects';
+import Technologies from './Components/Technologies';
 
 import './App.css'
-import Projects from './Components/Projects';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Header />
         <Projects />
+        <Technologies />
     </>
   )
 }

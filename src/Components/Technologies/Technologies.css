@@ -1,0 +1,17 @@
+.technologies-holder {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.technology {
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: #F1EFC6;
+    border-radius: 5px;
+    padding: 5px;
+}
