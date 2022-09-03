@@ -1,7 +1,37 @@
 header {
     background-color: #F1EFC6;
     min-height: 100vh;
-    background-image: url(/public/background.png), linear-gradient(180deg, rgba(255,255,255,0) 75%, rgba(255,255,255,1));
+    background-image: url(/public/background.png);
     background-repeat: repeat;
     background-size: cover;
+    padding: 15vh 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.header-text-wrapper {
+    /* padding-top: 20vh; */
+    padding-bottom: 20vh;
+}
+
+.header-welcome-text {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header-self-description {
+    font-size: 20px;
+}
+
+.contact-me-button {
+    background-color: #A4D6AC;
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
