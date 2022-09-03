@@ -4,6 +4,7 @@ import Projects from './Components/Projects';
 import Technologies from './Components/Technologies';
 
 import './App.css'
+import ContactMe from './Components/ContactMe';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Projects />
         <Technologies />
+        <ContactMe />
     </>
   )
 }
