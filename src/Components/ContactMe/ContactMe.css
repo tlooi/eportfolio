@@ -42,4 +42,7 @@ textarea.contact-me-input {
     .contact-me-area {
         width: 100%;
     }
+    #contact-me-send {
+        width: 100%;
+    }
 }
