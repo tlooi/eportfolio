@@ -18,4 +18,12 @@ section {
     background-color: #F1EFC6;
     /* max-width: 30%; */
     /* width: clamp(300px, 30%, 600px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.description-head {
+    /* margin-bottom: 1rem; */
 }
