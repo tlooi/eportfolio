@@ -1,6 +1,6 @@
 header {
     background-color: #F1EFC6;
-    min-height: 1010vh;
+    min-height: 100vh;
 }
 
 nav {
@@ -19,8 +19,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 500ms;
 }
 
 .nav-item a {
@@ -57,6 +55,10 @@ nav {
 }
 
 .animated-logo {
+    z-index: 10;
+}
+
+.logo-wrapper {
     z-index: 10;
 }
 
