@@ -7,7 +7,8 @@ function Navbar() {
     const menuNav = useRef(null);
     
     const navClasses = 'mob-nav-access ' + (mobNavState ? 'opened' : 'closed');
-    document.body.style.overflowY = mobNavState ? 'hidden' : 'visible';
+    mobNavState && document.body.classList.add('mob-no-scroll');
+    !mobNavState && document.body.classList.remove('mob-no-scroll');
     
     function hideMobileNavigation() {
         setMobNavState(false);

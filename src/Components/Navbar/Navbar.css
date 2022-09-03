@@ -94,4 +94,8 @@ nav {
     .mob-nav-access.closed ~ .nav-items {
         display: none;
     }
+
+    .mob-no-scroll {
+        overflow-y: hidden;
+    }
 }
