@@ -1,0 +1,21 @@
+section {
+    margin-top: 18vh !important;
+}
+
+.projects-holder {
+    margin-top: 20px;
+    display: grid;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.project {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F1EFC6;
+    /* max-width: 30%; */
+    /* width: clamp(300px, 30%, 600px); */
+}

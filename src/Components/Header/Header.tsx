@@ -1,8 +1,10 @@
+import SectionHeader from '../SectionHeader';
 import './Header.css';
 
 function Header() {
     return (
         <header>
+            <SectionHeader content='Technologies' id='header' />
             <div className='container'>
                 <div className='header-text-wrapper'>
                     <p className='header-welcome-text'>👋Hey I'm Timothy!</p>
