@@ -17,3 +17,8 @@
     max-width: clamp(300px, 80%, 1200px);
     margin: auto;
 }
+
+body {
+    background-color: #fafafa;
+
+}
