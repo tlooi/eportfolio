@@ -12,15 +12,14 @@ function ContactMe() {
         const subject = subjectInput.current?.value;
         const name = nameInput.current?.value;
         const message = messageInput.current?.value
-        console.log(subject, name, message);
 
         
         window.open(`mailto:${'t@looi^outlook@com'.replaceAll('@', '.').replaceAll('^', '@')}?subject=${name} - ${subject}&body=${message?.replaceAll('\n', '%20%0A')}`)
     }
 
     return (
-        <section className='container'>
-            <SectionHeader content='Contact Me' id='contact-me' />
+        <section className='container' id='contact-me'>
+            <SectionHeader content='Contact Me' id='contact-me-text' />
             <div className='contact-me-area'>
                 <label htmlFor="name">Name</label>
                 <input ref={nameInput} className='contact-me-input' type="text" id='name' minLength={1} />

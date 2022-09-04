@@ -25,8 +25,8 @@ const projects = [
 
 function Projects() {
     return (
-        <section className='container'>
-            <SectionHeader content='Projects' id='projects' />
+        <section className='container'  id='projects'>
+            <SectionHeader content='Projects' id='projects-text' />
             <div className='projects-holder'>
                 <div className='project'>
                     <div className='description-head'>

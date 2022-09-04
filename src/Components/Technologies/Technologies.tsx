@@ -4,8 +4,8 @@ import './Technologies.css';
 
 function Technologies() {
     return (
-        <section className='container'>
-            <SectionHeader content='Technologies' id='technologies' />
+        <section className='container' id='technologies'>
+            <SectionHeader content='Technologies' id='technologies-text' />
             <p>I've had experience working with some of the following:</p>
             <div className='technologies-holder'>
                 <div className='technology'>Javascript</div>

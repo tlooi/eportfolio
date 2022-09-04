@@ -9,6 +9,7 @@
     box-sizing: border-box;
     /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
     font-family: KoHo;
+    scroll-behavior: smooth;
 }
 
 .container {
