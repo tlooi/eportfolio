@@ -33,7 +33,7 @@ function Projects() {
                         <h2>Personal Portfolio</h2>
                         <p>Released</p>
                     </div>
-                    <p>This was develop both my design and frontend skills. I designed, built and experimented with many different types reusable components in ReactJS using Typescript for type safety. Learned to use Figma in order to aid the design of this website.</p>
+                    <p>This was made to develop both my design and frontend skills. I designed, built and experimented with many different types reusable components in ReactJS using Typescript for type safety. Learned to use Figma in order to aid the design of this website for both mobile and laptop - try load it on mobile!</p>
                 </div>
                 <div className='project'>
                     <div className='description-head'>
