@@ -54,6 +54,25 @@ nav {
     z-index: 10;
 }
 
+.animated-path-1 {
+    stroke-dasharray: 245;
+    stroke-dashoffset: 245;
+    animation: draw 1s linear forwards;
+}
+
+.animated-path-2 {
+    stroke-dasharray: 7;
+    stroke-dashoffset: 7;
+    animation: draw 100ms linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 .logo-wrapper {
     z-index: 10;
 }
