@@ -11,7 +11,18 @@
     align-items: center;
     text-align: center;
     display: flex;
-    background-color: #F1EFC6;
     border-radius: 5px;
+    /* background-color: #F1EFC6; */
+    background-color: rgba(0, 0, 0, 0);
     padding: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    transition: filter 200ms ease-out;
+}
+
+.technology:hover {
+    filter: brightness(20%);
+    background-color: #F1EFC6;
 }
