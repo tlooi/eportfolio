@@ -30,6 +30,13 @@ function Projects() {
             <div className='projects-holder'>
                 <div className='project'>
                     <div className='description-head'>
+                        <h2>Quick Draw!</h2>
+                        <p>Released</p>
+                    </div>
+                    <p>This was made in a team of three. Using Google's Quick Draw machine learning model, we gamified drawing into a small Java application. Was made over the period of about 3 months. Using a KanBan, we maintained equal workload and to maintain a consistent workflow we applied Github Workflows.</p>
+                </div>
+                <div className='project'>
+                    <div className='description-head'>
                         <h2>Personal Portfolio</h2>
                         <p>Released</p>
                     </div>
@@ -51,8 +58,16 @@ function Projects() {
                 </div>
                 <div className='project'>
                     <div className='description-head'>
+                        <h2>KAG Clone</h2>
+                        <p>Released (around 2021)</p>
+                        <a href="https://kagclone.onrender.com/" target='_blank'>View Release</a>
+                    </div>
+                    <p>Building off my first platformer, this project was a lot more ambitious. I applied techniques to heavily reduce bandwidth which was mainly done by sending specific bytes and stepping away from socket.io. I was also able to learn a whole lot about WebGL and ways I could improve performance outside of the trivial google-search or stack overflow optimizations.</p>
+                </div>
+                <div className='project'>
+                    <div className='description-head'>
                         <h2>Platformer</h2>
-                        <p>Released</p>
+                        <p>Released (around 2019)</p>
                         <a href="https://frozen-dusk-18527.herokuapp.com/" target='_blank'>View Release</a>
                     </div>
                     <p>This was my first experience deploying a site. It tested my abilities to use WebSockets to send real-time updates from other users. It was also my first time using Express which maintains communication between each of the users allowing real-time updates to be sent back and forwards.</p>
