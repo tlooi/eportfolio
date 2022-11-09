@@ -30,6 +30,14 @@ function Projects() {
             <div className='projects-holder'>
                 <div className='project'>
                     <div className='description-head'>
+                        <h2>Trivia</h2>
+                        <p>Work in progress</p>
+                        <a href="https://github.com/tlooi/trivia" target="_blank">View Source</a>
+                    </div>
+                    <p>Developed to improve my general knowledge skills. Using Framer Motion, ReactJS and Open Trivia API to grab questions dynamically. This project was more of an excuse for me to learn Framer Motion to animate some of transitions. It was also practice using Typescript in combination with the react's useContext hook + API calls.</p>
+                </div>
+                <div className='project'>
+                    <div className='description-head'>
                         <h2>Quick Draw!</h2>
                         <p>Released</p>
                     </div>
@@ -39,6 +47,7 @@ function Projects() {
                     <div className='description-head'>
                         <h2>Personal Portfolio</h2>
                         <p>Released</p>
+                        <a href="https://github.com/tlooi/eportfolio" target="_blank">View Source</a>
                     </div>
                     <p>This was made to develop both my design and frontend skills. I designed, built and experimented with many different types reusable components in ReactJS using Typescript for type safety. Learned to use Figma in order to aid the design of this website for both mobile and laptop - try load it on mobile!</p>
                 </div>
@@ -60,7 +69,7 @@ function Projects() {
                     <div className='description-head'>
                         <h2>KAG Clone</h2>
                         <p>Released (around 2021)</p>
-                        <a href="https://kagclone.onrender.com/" target='_blank'>View Release</a>
+                        <a href="https://github.com/tlooi/KAGClone" target='_blank'>View Source / Release</a>
                     </div>
                     <p>Building off my first platformer, this project was a lot more ambitious. I applied techniques to heavily reduce bandwidth which was mainly done by sending specific bytes and stepping away from socket.io. I was also able to learn a whole lot about WebGL and ways I could improve performance outside of the trivial google-search or stack overflow optimizations.</p>
                 </div>
